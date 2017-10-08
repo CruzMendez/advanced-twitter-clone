@@ -5,7 +5,9 @@ function App(){
     {/*<Nav/>*/}
     <Profile/>
     <Feed/>
+    <Advert/>
     <Trends/>
-    <Footer/>
+    <Follow/>
+    {/*<Footer/>*/}
   </body>
 )}
