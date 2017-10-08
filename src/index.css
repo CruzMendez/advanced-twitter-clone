@@ -2,4 +2,71 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background: gray;
+}
+
+.h1header{
+  color: salmon;
+  border: 2px solid black;
+}
+
+.nav1, .nav2, .nav3{
+  border: 1px solid red;
+  height: auto;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 10px; 
+}
+
+.img{
+  position: absolute;
+  height: 50%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("http://cdn3-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-21.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 20px;
+}
+
+.userName{
+  padding: 100px;
+  font-size: 25px;
+}
+
+.anchors{
+  text-decoration: none; 
+}
+
+.feed{
+  border: 1px solid red;
+  height: 700px;
+  /*padding: -10px;*/
+}
+
+.post, .trendPosts{
+  line-height: 40px;
+  color: white;
+  text-align: center;
+  padding-top:  20px;
+}
+
+.trends{
+  border: 1px solid red;
+  height: 350px;
+}
+
+.profileWindow{
+  padding: 20px;
+  border: 1px solid red;
+  font-size: 15px;
+  color: white;
+  height: 350px;
+}
+
+.footer{
+  border: 2px solid salmon;
 }

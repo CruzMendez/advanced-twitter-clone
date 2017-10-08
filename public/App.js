@@ -1,3 +1,11 @@
 function App(){
-  return <div><Main /></div>
-}
+  return (
+  <body>
+    <Header/>
+    {/*<Nav/>*/}
+    <Profile/>
+    <Feed/>
+    <Trends/>
+    <Footer/>
+  </body>
+)}

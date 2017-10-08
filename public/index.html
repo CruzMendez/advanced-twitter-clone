@@ -13,6 +13,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
     <title>React App</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react-dom.min.js"></script>
@@ -30,13 +31,13 @@
     
     </script>
 
-    <script>
+    <!--<script>
     
       var h1 = document.createElement("h1");
       h1.innerHTML = tweets[0];
       document.body.appendChild(h1);
 
-    </script>
+    </script>-->
 
     <script type="text/jsx">
     var tweet = React.createElement("h1",null,tweets[1])
@@ -56,5 +57,17 @@
       To create a production bundle, use `npm run build`.
     -->
    
+   <script src="Footer.js" type="text/jsx"></script>
+   <script src="Profile.js" type="text/jsx"></script>
+   <script src="Trends.js" type="text/jsx"></script>
+   <script src="Feed.js" type="text/jsx"></script>
+   <script src="Nav.js" type="text/jsx"></script>
+   <script src="Header.js" type="text/jsx"></script>
+   <script src="Main.js" type="text/jsx"></script>   <!--these must be in correct order one will render the next as a chain-->
+   <script src="App.js" type="text/jsx"></script>
+   <script src="index.js" type="text/jsx"></script>
+
+
+
   </body>
 </html>
